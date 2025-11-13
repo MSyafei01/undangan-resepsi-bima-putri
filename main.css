@@ -456,7 +456,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/masjidbg.jpg');
+    background-image: url('masjidbg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -703,7 +703,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: var(--bg-image);
+
     background-size: cover;
     background-position: center 30%;
     background-repeat: no-repeat;
@@ -715,10 +715,12 @@ body, html {
 
 .groom-profile::before {
     filter: brightness(0.8);
+    background-image: url(mempelaipria.jpg) ;
 }
 
 .bride-profile::before {
     filter: brightness(0.8);
+    background-image: url(mempelaiwanita.jpg);
 }
 
 .profile-card::after {
@@ -806,7 +808,7 @@ body, html {
 .profile-subtitle {
     font-family: var(--font-secondary);
     font-size: var(--text-sm);
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(241, 240, 240, 0.9);
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: var(--weight-medium);
@@ -839,18 +841,14 @@ body, html {
 
 .detail-label {
     display: block;
-    font-family: var(--font-secondary);
-    font-size: var(--text-sm);
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
     margin-bottom: 0.3rem;
     font-weight: var(--weight-medium);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 2px rgb(72, 70, 70);
 }
 
 .detail-text {
     display: block;
-    font-family: var(--font-secondary);
-    font-size: var(--text-base);
     color: white;
     font-weight: var(--weight-semibold);
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
@@ -973,7 +971,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/kisahcintabg.jpg');
+    background-image: url('kisahcintabg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1374,7 +1372,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/bgresepsi.jpg');
+    background-image: url('bgresepsi.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1559,22 +1557,7 @@ body, html {
     flex: 1;
 }
 
-.detail-label {
-    display: block;
-    font-family: var(--font-secondary);
-    font-size: var(--text-sm);
-    color: var(--text-secondary);
-    margin-bottom: 0.25rem;
-    font-weight: var(--weight-medium);
-}
 
-.detail-text {
-    display: block;
-    font-family: var(--font-secondary);
-    font-size: var(--text-lg);
-    color: var(--text-primary);
-    font-weight: var(--weight-semibold);
-}
 
 .map-btn {
     display: inline-flex;
@@ -1634,7 +1617,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/bgundangan.jpeg');
+    background-image: url('bgundangan.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1706,7 +1689,7 @@ body, html {
     box-shadow: 
         0 35px 70px rgba(0, 0, 0, 0.25),
         0 0 0 1px rgba(255, 255, 255, 0.3),
-        0 0 60px rgba(255, 182, 193, 0.4);
+        0 0 60px rgba(76, 74, 75, 0.4);
     background: rgba(6, 124, 124, 0.517);
 }
 
@@ -1730,16 +1713,14 @@ body, html {
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    font-family: var(--font-secondary);
-    font-weight: var(--weight-semibold);
-    color: var(--text-primary);
+    color: white;
     margin-bottom: 0.8rem;
     font-size: var(--text-base);
     transition: all 0.3s ease;
 }
 
 .form-label i {
-    color: var(--accent-gold);
+    color: rgb(93, 155, 152);
     font-size: 1.1rem;
     transition: all 0.3s ease;
 }
@@ -1897,7 +1878,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/images/bgcincin.jpg');
+    background-image: url('bgcincin.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2699,8 +2680,8 @@ body, html {
     .map-btn, 
     .submit-btn,
     .dot {
-        min-height: 44px;
-        min-width: 44px;
+        min-height: 8px;
+        min-width: 8px;
     }
     
     /* Prevent zoom on input focus */

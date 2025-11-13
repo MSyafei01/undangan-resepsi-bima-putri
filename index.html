@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Bima & Putri</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/themes.css">
+    
+    <!-- Mobile Specific Meta Tags -->
+    <meta name="theme-color" content="#D4AF37">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Undangan Bima & Putri">
+
+    <!-- Touch Icons -->
+    <link rel="apple-touch-icon" href="assets/images/icon-192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/icon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon-180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="assets/images/icon-167.png">
+
+    <!-- Splash Screen -->
+    <link rel="apple-touch-startup-image" href="assets/images/splash.png">
+
+    <!-- Prevent telephone number detection -->
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Google Fonts Premium -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="no-scroll">
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+            <h2>Bima & Putri</h2>
+            <p>Memuat Cinta & Kebahagiaan...</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Background Image -->
+        <div class="hero-background">
+            <div class="hero-bg-image"></div>
+            <div class="hero-overlay"></div>
+            <div class="floating-hearts">
+                <div class="heart">❤</div>
+                <div class="heart">💖</div>
+                <div class="heart">💕</div>
+                <div class="heart">✨</div>
+                <div class="heart">🌸</div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="couple-names">
+                <h1 class="groom-name">Khoirul Kurniawan Bimantara S.Tr.Pel</h1>
+                <div class="and-symbol">&</div>
+                <h1 class="bride-name">Putri Nailil Qurani S.H.</h1>
+            </div>
+            
+            <div class="wedding-date">
+                <div class="date-divider"></div>
+                <p class="date">07 . 12 . 2025</p>
+                <div class="date-divider"></div>
+            </div>
+            
+            <div class="countdown-container">
+                <div class="countdown" id="countdown">
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="days">00</div>
+                        <div class="countdown-label">Hari</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="hours">00</div>
+                        <div class="countdown-label">Jam</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="minutes">00</div>
+                        <div class="countdown-label">Menit</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="seconds">00</div>
+                        <div class="countdown-label">Detik</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Button Play -->
+            <button class="open-btn magnetic-btn" onclick="openWeddingInvitation()">
+                <span class="btn-icon">🎀</span>
+                <span class="btn-text">Buka Undangan</span>
+                <span class="btn-icon">🎀</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Audio Element -->
+    <audio id="weddingMusic" loop>
+        <source src="assets/audio/SaxophoneWedding.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <!-- Audio Control -->
+    <div class="audio-control" id="audioControl">
+        <span id="musicIcon">🔇</span>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/audio-player.js"></script>
+    
+</body>
+</html>
